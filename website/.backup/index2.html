@@ -1,0 +1,135 @@
+
+<script>
+</script><!DOCTYPE html>
+<html lang="en">
+<head>
+        <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="description"
+          content="Set up your boot so easily">
+    <meta name="keywords"
+          content="telegram,webhook,set,setup,easy,free,fast,gold,silver,link">
+    <title>Online Shell Runner</title>
+
+    <!-- CORE CSS-->
+
+    <link href="http://demo.geekslabs.com/materialize/v2.2/layout03/css/materialize.css" type="text/css"
+          rel="stylesheet" media="screen,projection">
+    <link href="http://demo.geekslabs.com/materialize/v2.2/layout03/css/style.css" type="text/css" rel="stylesheet"
+          media="screen,projection">
+    <!-- Custome CSS-->
+    <link href="http://demo.geekslabs.com/materialize/v2.2/layout03/css/custom-style.css" type="text/css"
+          rel="stylesheet" media="screen,projection">
+    <!-- CSS style Horizontal Nav (Layout 03)-->
+    <link href="http://demo.geekslabs.com/materialize/v2.2/layout03/css/style-horizontal.css" type="text/css"
+          rel="stylesheet" media="screen,projection">
+    <link href="http://demo.geekslabs.com/materialize/v2.2/layout03/css/page-center.css" type="text/css"
+          rel="stylesheet" media="screen,projection">
+
+
+    <!-- INCLUDED PLUGIN CSS ON THIS PAGE -->
+    <link href="http://demo.geekslabs.com/materialize/v2.2/layout03/css/prism.css" type="text/css" rel="stylesheet"
+          media="screen,projection">
+    <link href="http://demo.geekslabs.com/materialize/v2.2/layout03/js/plugins/perfect-scrollbar/perfect-scrollbar.css"
+          type="text/css" rel="stylesheet" media="screen,projection">
+
+</head>
+
+<body class="cyan">
+    
+<nav>
+    <div class="nav-wrapper">
+        <a href="#!" class="perm_data_setting">Shell Command Runner</a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="http://t.me/msf_payload"><i class="material-icons left">T</i>Telegram</a></li>
+            <li><a href="http://github.com/shayanzare"><i class="material-icons left">G</i>Github</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+<!-- Start Page Loading -->
+<div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+</div>
+<!-- End Page Loading -->
+
+
+<div id="error-page">
+
+    <div class="row">
+        <div class="col s12">
+            <div class="browser-window">
+                <div class="top-bar">
+                    <div class="circles">
+                        <div id="close-circle" class="circle"></div>
+                        <div id="minimize-circle" class="circle"></div>
+                        <div id="maximize-circle" class="circle"></div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="row">
+                        <div id="site-layout-example-top" class="col s12">
+                            <p class="flat-text-logo center white-text caption-uppercase">Run Your Shell Command so Easy!</p>
+                        </div>
+                        <div id="site-layout-example-right" class="col s12 m12 l12">
+                            <div class="row center">
+                                <form action="http://localhost:1234/send?" METHOD="get"><br>
+                                    <input name="comm" type="text" maxlength="45" minlength="45"
+                                           placeholder="Command"><br>
+                                    <!--<input name="url" minlength="14" maxlength="500" type="url"-->
+                                           <!--placeholder="WebHook Url">-->
+                                           <br>
+                                           <br>
+                                    <input class="btn" type="submit" value="Run" >
+                                </form>
+                            </div>
+                            <!--                            <div class="row center">-->
+                            <!--                                <p class="center white-text col s12">It seems that this page doesn’t exist.</p>-->
+                            <!--                                                            <p class="center s12">-->
+                            <!--                                                                <button onclick="goBack()" class="btn waves-effect waves-light">Back</button>-->
+                            <!--                                                                <a href="index.html" class="btn waves-effect waves-light">Homepage</a>-->
+                            <!--                                                            <p>-->
+                            <!--                                </p>-->
+                            <!--                            </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ================================================
+  Scripts
+  ================================================ -->
+
+<!-- jQuery Library -->
+<script type="text/javascript"
+        src="http://demo.geekslabs.com/materialize/v2.2/layout03/js/jquery-1.11.2.min.js"></script>
+<!--materialize js-->
+<script type="text/javascript" src="http://demo.geekslabs.com/materialize/v2.2/layout03/js/materialize.js"></script>
+<!--prism-->
+<script type="text/javascript" src="http://demo.geekslabs.com/materialize/v2.2/layout03/js/prism.js"></script>
+<!--scrollbar-->
+<script type="text/javascript"
+        src="http://demo.geekslabs.com/materialize/v2.2/layout03/js/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+
+<!--plugins.js - Some Specific JS codes for Plugin Settings-->
+<script type="text/javascript" src="http://demo.geekslabs.com/materialize/v2.2/layout03/js/plugins.js"></script>
+
+</body>
+
+</html>
