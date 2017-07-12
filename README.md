@@ -18,3 +18,8 @@ install gems :
 For start run <b>/server/shellOnline.rb </b>
 
 then started open <b>/website/index.html</b> and use it :D
+
+## TODO
+
+Add anouther programming language.
+Add Tools.
